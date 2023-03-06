@@ -1,9 +1,9 @@
 # layout-testing
-A fun UI project
+A fun UI project - recreating a layout
 
 
 ## The Original
-[Original](./images/layout-original.png)
+![Original](/images/layout-original.png)
 
 ## My attempts
 ![FullScreen](/images/layout-attempt-full-screen.png)
