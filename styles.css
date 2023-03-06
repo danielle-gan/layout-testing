@@ -17,14 +17,12 @@ header {
 
 h1 {
     background-color: var(--gray);
-    padding-right: 38em;
+    position: relative;
+    width: 90%;
     padding-bottom: 10px;
     border-bottom-right-radius: 4em;
     border-top-left-radius: 10px;
-    margin:0;
     border-color: var(--gray);
-    margin-block-start: 0em;
-    margin-block-end: 0em;
     font-family:monospace;
 }
 
@@ -64,14 +62,37 @@ input {
     color: white;
 }
 
-ul {
-    list-style-type: none;
+button {
+    border-style:none;
+    background-color: var(--black);
+    color: var(--light-gray);
+}
+
+button span {
+    color: var(--blue);
+}
+
+button:hover {
+    background-color: var(--gray);
+}
+
+button:active {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--black);
+    border-left-color: var(--blue);
+}
+
+.footer-box{
+    position: relative;
+    width: 90%;
+    background-color: var(--gray);
 }
 
 h3 {
     background-color: var(--gray);
-    padding-left: 50em;
     border-top-left-radius: 50px;
+    padding-left: 30em;
     padding-right: 10px;
     font-family:monospace;
 }
