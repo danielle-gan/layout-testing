@@ -6,5 +6,5 @@ A fun UI project
 [Original](./images/layout-original.png)
 
 ## My attempts
-![FullScreen](./images/layout-attempt-full-screen.png)
-![HalfScreen](./images/layout-attempt-half-screen.png)
+![FullScreen](/images/layout-attempt-full-screen.png)
+![HalfScreen](/images/layout-attempt-half-screen.png)
