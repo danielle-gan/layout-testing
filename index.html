@@ -1,73 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href = "./styles.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Layout Testing</title>
 </head>
+
 <body>
     <header>
-        <div class = "d-flex justify-content-between m-3">
-        <h1> C# Design Pro </h1>
-        <i class="fas fa-power-off "></i>
+        <div class="d-flex justify-content-between align-items-center mx-3 text-nowrap">
+            <h1> C# DESIGN PRO </h1>
+            <i class="fas fa-power-off fa-3x"></i>
         </div>
     </header>
 
-    <body>
-        <div class="row my-5">
-            <div class="col-2 mx-4">
-                <!-- search bar -->
-                <input id ="textInput" name="search-files" placeholder="Search" >
-                <!-- unordered list of icon buttons -->
-                <ul class="my-4">
-                    <li>Home</li>
-                    <li>Desktop</li>
-                    <li>Documents</li>
-                    <li>Downloads</li>
-                    <li>Pictures</li>
-                    <li>Music</li>
-                    <li>Movies</li>
-                    <li>Trash</li>
-                </ul>
-            </div>
-            
-            <div class="col-9">
-                <div class = "row justify-space-between">
-                    <h2 class="col-8">Desktop</h2>
-                    <input class = "col-4" id = "textInput" name="search-specific" placeholder="Search">
+    <div class="border-box mx-3">
+        <div class="white-box">
+
+            <body>
+                <div class="d-flex row mx-2 header body">
+                    <div class="col-2 mx-4">
+                        <!-- search bar -->
+                        <input id="textInput" name="search-files" placeholder=" Search" class ="py-2">
+                        <!-- unordered list of icon buttons -->
+                        <ul class="mt-4">
+                            <li class="my-1 button"> <span class="fas fa-home"></span> Home</li>
+                            <li class="my-1"> <span class="fas fa-desktop"></span> Desktop</li>
+                            <li class="my-1"> <span class="fa fa-sticky-note"></span> Documents</li>
+                            <li class="my-1"> <span class="fa fa-download"></span> Downloads</li>
+                            <li class="my-1"> <span class="fa fa-picture-o"></span> Pictures</li>
+                            <li class="my-1"> <span class="fas fa-music"></span> Music</li>
+                            <li class="my-1"> <span class="fas fa-film"></span> Movies</li>
+                            <li class="my-1"> <span class="fas fa-trash"></span> Trash</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-9">
+                        <div class="row justify-space-between">
+                            <h2 class="col-8">Desktop</h2>
+                            <input class="col-4" id="textInput" name="search-specific" placeholder=" Search">
+                        </div>
+                        <!-- Flex Grid -->
+                        <div class="d-flex row text-center my-2">
+                            <div class="col my-5">
+                                <i class="fa fa-home fa-3x"></i>
+                                <p>Home</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-desktop fa-3x"></i>
+                                <p>Desktop</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                                <p>Pictures</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-bar-chart fa-3x"></i>
+                                <p>Analytics</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-camera fa-3x"></i>
+                                <p>Webcam</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col my-5">
+                                <i class="fa fa-print fa-3x"></i>
+                                <p>Printer</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-gear fa-3x"></i>
+                                <p>Services</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-pie-chart fa-3x"></i>
+                                <p>Chart</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-video fa-3x"></i>
+                                <p>Film</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-clock fa-3x"></i>
+                                <p>Alarm</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col my-5">
+                                <i class="fa fa-headphones fa-3x"></i>
+                                <p>Headphone</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-key fa-3x"></i>
+                                <p>Password</p>
+                            </div>
+                            <div class="col my-5">
+                                <i class="fa fa-calendar fa-3x"></i>
+                                <p>Calendar</p>
+                            </div>
+                            <div class="col my-5">
+                            </div>
+                            <div class="col my-5">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Flex Grid -->
-                <div class="row text-center my-4">
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="w-100"></div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="w-100"></div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                    <div class="col my-5">col</div>
-                  </div>
-            </div>
+            </body>
         </div>
-    </body>
+    </div>
 
     <footer>
-        <div class = "d-flex justify-content-end m-3">
-            <h3> DESIGN THE INTERFACE</h3>
+        <div class="d-flex justify-content-end mx-3 text-nowrap">
+            <h3> DESIGN THE INTERFACE </h3>
         </div>
     </footer>
 </body>
+
 </html>
