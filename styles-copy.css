@@ -1,0 +1,97 @@
+:root {
+    --gray: #5c5c5c;
+    --light-gray: #eaf0f0;
+    --black: #333333;
+    --blue: #188bba;
+}
+
+
+body {
+    color: var(--light-gray);
+}
+
+header {
+    background-color: white;
+}
+
+
+h1 {
+    background-color: var(--gray);
+    position: relative;
+    width: 90%;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 10px;
+    border-color: var(--gray);
+    font-family:monospace;
+}
+
+i {
+    color: yellow;
+}
+
+.fa-power-off {
+    color: var(--blue);
+}
+
+.body-box {
+    background-color: var(--black);
+    border-radius: 30px;
+}
+
+.border-box {
+    background-color: var(--gray);
+    margin-top: -1px;
+    margin-bottom:-1px;
+}
+
+.white-box {
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px 0px;
+}
+
+input {
+    background-color: var(--gray);
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+}
+
+button {
+    border-style:none;
+    background-color: var(--black);
+    color: var(--light-gray);
+    font-size: 24px;
+}
+
+button span {
+    color: var(--blue);
+}
+
+button:hover {
+    background-color: var(--gray);
+}
+
+button:active {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--black);
+    border-left-color: var(--blue);
+}
+
+.col-sm:hover {
+    background-color: var(--gray);
+
+}
+
+
+h3 {
+    background-color: var(--gray);
+    border-top-left-radius: 50px;
+    padding-right: 10px;
+    width: 90%;
+    font-family:monospace;
+   text-align: right;
+}

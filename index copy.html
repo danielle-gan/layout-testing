@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles-copy.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Layout Testing</title>
+</head>
+
+<body>
+    <header>
+        <div class="d-flex justify-content-between align-items-center mx-3 text-nowrap">
+            <h1 class="m-0 ps-3"> C# DESIGN PRO </h1>
+            <i class="fas fa-power-off fa-3x"></i>
+        </div>
+    </header>
+
+
+    <div class="border-box mx-3">
+        <div class="white-box">
+            <div class="body-box container d-flex">
+                <div class="container side-bar col-md-3">
+                    <div class="row my-3">
+                        <div class="col">
+                            <input name="search-files" Placeholder=" Search" class="p-2">
+                            <div>
+                                <button class="mb-1 mt-5" id="home"> <span class="fas fa-home"></span> Home</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="desktop"> <span class="fas fa-desktop"></span> Desktop</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="documents"> <span class="fa fa-sticky-note"></span> Documents</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="downloads"> <span class="fa fa-download"></span> Downloads</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="pictures"> <span class="fa fa-picture-o"></span> Pictures</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="music"> <span class="fas fa-music"></span> Music</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="movies"> <span class="fas fa-film"></span> Movies</button>
+                            </div>
+                            <div>
+                                <button class="my-1" id="trash"> <span class="fas fa-trash"></span> Trash</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container display-files col-md-9 ">
+                    <div class="row d-flex align-items-center mt-3">
+                        <div class="col-sm">
+                            <h2> Desktop </h2>
+                        </div>
+                        <div class="col-sm text-end">
+                            <input class="py-2 px-5" name="search-specific" Placeholder="Search">
+                        </div>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-sm my-5 text-center" id="testing1">
+                            <i class="delete-on-click fa fa-home fa-3x"></i>
+                            <p class="delete-on-click">Home</p>
+                        </div>
+                        <div class="col-sm my-5 text-center" id="testing2" >
+                            <i class="delete-on-click fa fa-desktop fa-3x"></i>
+                            <p class="delete-on-click">Desktop</p>
+                        </div>
+                        <div class="col-sm my-5 text-center" id="testing3">
+                            <i class="delete-on-click fa fa-picture-o fa-3x"></i>
+                            <p class="delete-on-click">Pictures</p>
+                        </div>
+                        <div class="col-sm my-5 text-center" id="testing4">
+                            <i class="fa fa-bar-chart fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Analytics</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-camera fa-3x delete-on-click"></i>
+                            <p class="delete-on-click" >Webcam</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-print fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Printer</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-gear fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Services</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-pie-chart fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Chart</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-video fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Film</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-clock fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Alarm</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-headphones fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Headphone</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-key fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Password</p>
+                        </div>
+                        <div class="col-sm my-5 text-center">
+                            <i class="fa fa-calendar fa-3x delete-on-click"></i>
+                            <p class="delete-on-click">Calendar</p>
+                        </div>
+                        <div class="col-sm my-5 text-center"></div>
+                        <div class="col-sm my-5 text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="d-flex justify-content-end mx-3 text-nowrap">
+            <h3 class=""> DESIGN THE INTERFACE </h3>
+        </div>
+    </footer>
+</body>
+
+</html>
